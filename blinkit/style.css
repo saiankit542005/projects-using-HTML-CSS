@@ -1,0 +1,289 @@
+/* ---------------- GLOBAL ---------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* ---------------- HEADER ---------------- */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 20px;
+  flex-wrap: wrap; /* important for responsiveness */
+}
+
+#input-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: rgb(130, 130, 130);
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 350px;
+  max-width: 100%;
+}
+
+.btn_cart {
+  background-color: green;
+  color: rgba(255, 255, 255);
+  padding: 15px 25px;
+  border: none;
+  border-radius: 10px;
+}
+
+#delivery_msg {
+  font-weight: 800;
+  font-size:20px;
+}
+
+#login {
+  font-size:20px;
+  color:#666;
+}
+
+/* Tablet Responsive (1024px) */
+/* @media (max-width: 1024px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  #input-box {
+    width: 250px;
+  }
+} */
+
+/*  Mobile Responsive (768px) */
+/* @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  #input-box {
+    width: 100%;
+  }
+
+  .btn_cart {
+    width: 100%;
+    text-align: center;
+  }
+
+  #login {
+    padding: 8px 0;
+  }
+} */
+
+/* Small Mobile (480px) */
+/* @media (max-width: 480px) {
+  #delivery_msg {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #login {
+    font-size: 16px;
+  }
+
+  .btn_cart {
+    padding: 10px;
+    font-size: 14px;
+  }
+} */
+
+/* ---------------- IMAGES SECTION ---------------- */
+
+.images_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 20px 0;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.img2 {
+  height: 190px;
+  width: 335px;
+  object-fit: cover;
+}
+
+/* ---------------- CATEGORY GRID ---------------- */
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  gap: 40px 0;
+}
+
+.container_img {
+  height: 30vh;
+  width: 9vw;
+  object-fit: contain;
+}
+
+/* ---------------- PRODUCT GRID ---------------- */
+
+.container_items {
+  width: 90%;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* ---------------- PRODUCT CARD ---------------- */
+
+.item0 {
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+}
+
+/* PRODUCT IMAGE */
+
+.con1_img {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+/* TEXT */
+
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 4px;
+}
+
+p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* PRICE + ADD BUTTON */
+
+.items_price_btn {
+  margin-top: auto; /* 👈 Always stick to bottom */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.items_price_btn h6 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.btn_ADD {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  padding: 6px 16px;
+  font-size: 13px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap; /* 👈 Prevent text break */
+}
+
+/* Hover effect */
+
+.btn_ADD:hover {
+  background-color: green;
+  color: white;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer {
+  margin-top: 100px;
+  height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.ul1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ul1 li {
+  color: #777777;
+  list-style-type: none;
+}
+
+#download_apps {
+  color: #777777;
+  margin-right: 20px;
+  margin-top: -60px;
+}
+
+.para1 {
+  color: #777777;
+  margin-right: 40px;
+  margin-top: -80px;
+}
+
+.icon-box {
+  background-color: black;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_box_i {
+  color: white;
+  font-size: 30px;
+}
+
+.icons_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.img_apps {
+  height: 30px;
+  width: 92px;
+  margin-top: -100px;
+}
+
+.heading {
+  margin-bottom: 10px;
+}
