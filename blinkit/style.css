@@ -50,55 +50,6 @@ header {
   color:#666;
 }
 
-/* Tablet Responsive (1024px) */
-/* @media (max-width: 1024px) {
-  header {
-    padding: 15px 20px;
-  }
-
-  #input-box {
-    width: 250px;
-  }
-} */
-
-/*  Mobile Responsive (768px) */
-/* @media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 15px;
-  }
-
-  #input-box {
-    width: 100%;
-  }
-
-  .btn_cart {
-    width: 100%;
-    text-align: center;
-  }
-
-  #login {
-    padding: 8px 0;
-  }
-} */
-
-/* Small Mobile (480px) */
-/* @media (max-width: 480px) {
-  #delivery_msg {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  #login {
-    font-size: 16px;
-  }
-
-  .btn_cart {
-    padding: 10px;
-    font-size: 14px;
-  }
-} */
 
 /* ---------------- IMAGES SECTION ---------------- */
 
