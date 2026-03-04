@@ -3,7 +3,8 @@
 A pixel-accurate and responsive front-end clone of the homepage of
 Blinkit (formerly Grofers).
 
-This project focuses on clean layout structuring, reusable UI sections, and modern frontend best practices using pure HTML and CSS.
+This project focuses on clean layout structuring, reusable UI sections, and modern frontend best
+practices using pure HTML and CSS.
 
 📌 Project Overview
 
@@ -13,7 +14,7 @@ Header with delivery information
 
 Search functionality UI
 
-Product category grids  
+Product category grids
 
 Product listing sections
 
@@ -24,6 +25,7 @@ Social media and app download sections
 The goal of this project is to strengthen core frontend fundamentals before moving to advanced frameworks like React.
 
 ✨ Key Features
+
 🔹 Layout & Structure
 
 Semantic HTML5 structure
@@ -96,15 +98,7 @@ Clean footer architecture
 
 UI cloning practice for skill enhancement
 
-
 👨‍💻 Author
+
 Ankit Saini
 Aspiring Frontend Developer
-
-Reusable component design approach
-
-CDN integration
-
-Clean footer architecture
-
-UI cloning practice for skill enhancement
