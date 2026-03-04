@@ -69,17 +69,22 @@ Hover effects and button styling
 Structured class naming
 
 🛠️ Tech Stack
-Technology	Purpose
-HTML5	Page structure
-CSS3	Styling & Layout
-Google Fonts	Typography
-Font Awesome	Icons
+
+HTML5
+
+CSS3
+
+Google Fonts (Roboto)
+
+Font Awesome Icons
+
 📂 Folder Structure
-blinkit-ui-clone/
+blinkit/
 │
 ├── index.html
 ├── style.css
 └── README.md
+
 🎯 Learning Objectives
 
 This project demonstrates:
